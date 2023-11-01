@@ -38,7 +38,7 @@ const WelcomeNavbar = () => {
 
         <div className={Style.leftDiv}>
             
-            <a href='www.ljh'><img src={Logo} /></a>
+            <a href='www.ljh'><img src={Logo} alt=''/></a>
 
             <img src={Menu} alt='' />
 
