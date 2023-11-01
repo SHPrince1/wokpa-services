@@ -27,7 +27,7 @@ const CampBill = () => {
         </div>
 
         <div className={Style.campText}>
-          <img src={Man} />
+          <img src={Man} alt='' />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             fugiat debitis dolorem, numquam maiores culpa? Ipsum obcaecati quis
@@ -69,7 +69,7 @@ const CampBill = () => {
             <h3>N 0.00</h3><br/>
             <div>
               
-              <a href=''><h4>+ Add funds</h4></a> </div>
+              <a href='www.jhh'><h4>+ Add funds</h4></a> </div>
           </div>
          
         </div>

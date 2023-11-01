@@ -19,8 +19,8 @@ const CampaignSummary = () => {
           </div>
         </div>
 
-        <div className={Style.campText}>
-          <img src={Man} />
+        <div className={Style.campText} >
+          <img src={Man} alt=''/>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             fugiat debitis dolorem, numquam maiores culpa? Ipsum obcaecati quis

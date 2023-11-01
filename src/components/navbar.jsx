@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className={Style.logoPart}>
            
 
-           <a href="www.fakurl"><img src={Logo} /></a>
+           <a href="www.fakurl"><img src={Logo} alt='' /></a>
            <a href='www.fake'className={Style.addsCenter}>Adds.center</a>
             
          </div>

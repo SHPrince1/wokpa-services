@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/navbar';
-import WelcomeNavbar from './components/welcome Components/welcome-navbar';
-import Index from './components/welcome Components';
+// import NavBar from './components/navbar';
+// import WelcomeNavbar from './components/welcome Components/welcome-navbar';
+// import Index from './components/welcome Components';
 
 import Home from './components/welcome Components/index';
 

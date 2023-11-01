@@ -38,9 +38,9 @@ const WelcomeNavbar = () => {
 
         <div className={Style.leftDiv}>
             
-            <a><img src={Logo} /></a>
+            <a href='www.ljh'><img src={Logo} /></a>
 
-            <img src={Menu} />
+            <img src={Menu} alt='' />
 
             {/* <MenuComp /> */}
 
@@ -51,7 +51,7 @@ const WelcomeNavbar = () => {
             <button onClick={openModal} >Create a brand</button>
             <button  onClick={openCampModal}>+ New Campaign</button>
             <div>
-                <img src={Avatar} />
+                <img src={Avatar} alt='' />
             </div>
 
         </div>

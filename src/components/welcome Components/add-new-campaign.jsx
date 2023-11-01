@@ -9,7 +9,7 @@ const AddNewCampaign = () => {
       <div className={style.mainDiv}>
         <div className={style.card}>
             <div>
-          <img src={Additem} />
+          <img src={Additem}  alt=''/>
 
             </div>
             <div>
@@ -30,7 +30,7 @@ const AddNewCampaign = () => {
 
         
           <div className={style.card}>
-            <img src={ColorWath} />
+            <img src={ColorWath}  alt=''/>
             <h5>Baked-In-Adds</h5>
             <form>
               <lael>
