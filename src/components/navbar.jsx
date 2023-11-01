@@ -14,16 +14,16 @@ const NavBar = () => {
         <div className={Style.logoPart}>
            
 
-           <a href="#"><img src={Logo} /></a>
+           <a href="www.fakurl"><img src={Logo} /></a>
            <a href='#'className={Style.addsCenter}>Adds.center</a>
             
          </div>
          <div className={Style.signleLinks}>
          
-           <a href="#">FAQ</a>
-           <a href="#">Pricing</a>
+           <a href="www.fakurl">FAQ</a>
+           <a href="www.fakurl">Pricing</a>
  
-           <a href="#"> Resources</a>
+           <a href="www.fakurl"> Resources</a>
          </div>
         </div>
        
@@ -32,8 +32,8 @@ const NavBar = () => {
 
         <div className={Style.signInPart}>
             <div className={Style.signInContainer}>
-                <a href="#" className={Style.started} >Get Started </a>
-                <a href="http://wokpa.ddns.net:9000/#/Listener/post_api_listeners_login" className={Style.sign}>Sign in </a>
+                <a href="www.fakurl" className={Style.started} >Get Started </a>
+                <a href="www.fakeurl" className={Style.sign}>Sign in </a>
             </div>
             <div>
 
