@@ -1,0 +1,161 @@
+
+button{
+    width: auto;
+    height: 42px;
+    outline: none;
+    outline-color: none;
+    border: none;
+    font-weight: bold;
+    color: #5A5A5A;
+    font-size: 16px;
+}
+.CampParentDiv{
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+    background-color: #fbfbfb;
+    width: 65%;
+    height: 440px;
+    margin-left: 14px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    
+}
+
+.container{
+/* display: flex; */
+}
+
+.summary{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding: 10px;
+}
+.camp{
+    width: auto;
+    /* border: 1px solid blue; */
+    justify-content: left;
+    text-align: left;
+    /* line-height: 0.5; */
+}
+.camp h4{
+    font-weight: bold;
+}
+.campText{
+    width: 80%;
+    margin:
+     0 auto;
+}
+.campText img{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+}
+.campTextLink a{
+    color:  #093F62;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+.btndate{
+    background-color: #e7ecf0;
+    border-radius: 10px;
+    /*width: 200px;
+    */font-size: 16px;
+    width: 280px;
+    height: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.tipsParentDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 22px;
+    /*align-items: center;
+    */width: 95%;
+    height: 400px;
+    padding: 20px;
+    margin: 0 auto 100px auto;
+    box-shadow: 1px 1px 20px 1px #0000001A;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+.tipsParentDiv h4{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: poppins;
+    
+    color: #093F62;
+
+
+}
+.btnDiv{
+    display: flex;
+    width: 100px;
+    gap: 10px;
+}
+.secBtndiv{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+@media only screen and (max-width:1200px) {
+    
+}
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:425px) {
+
+   .CampParentDiv{
+    width: 100%;
+    height: 550px;
+    margin-left: 40px;
+   }
+   .tipsParentDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 22px;
+    /*align-items: center;
+    */width: 95%;
+    height: 400px;
+    padding: 20px;
+    /* margin: 0 auto 100px auto; */
+    margin-left: 55px;
+    box-shadow: 1px 1px 20px 1px #0000001A;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+   .btndate {
+    background-color: #e7ecf0;
+    border-radius: 10px;
+    /* width: 200px; */
+    font-size: 11px;
+    width: 220px;
+    height: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.tipsParentDiv h4{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: poppins;
+    
+    color: #093F62;
+
+
+}
+    
+}

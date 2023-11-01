@@ -1,0 +1,96 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+.container{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    /* justify-content: space-around; */
+}
+.logoPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 14px;
+/* gap: 50px; */
+}
+.signleLinks{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-around; */
+}
+.signleLinks a{
+    font-family: poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: #282828;
+text-decoration: none;
+
+}
+.addsCenter{
+    color: #5A5A5A;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+text-decoration: none;
+
+}
+.signInPart .signInContainer{
+    display: flex;
+    gap: 20px;
+}
+.signInContainer a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.started{
+    background: #1EAEA3;
+    color: #fff;
+    width:142px ;
+    height: 40px;
+    top: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    left: 1133px;
+    padding: 10px,25px,10px,25px;
+    border-radius:    12px;
+    gap: 10px;
+  
+}
+.sign{
+    width: 86px;
+    height: 40px;
+    top: 32px;
+    left: 1301px;
+    padding: 10px, 17px, 10px, 17px;
+    border-radius:12px;
+    border:1.5px solid #1EAEA3;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   color: #282828;
+}
