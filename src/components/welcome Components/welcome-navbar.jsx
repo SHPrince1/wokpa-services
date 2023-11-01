@@ -4,7 +4,7 @@ import Style from '../../style/welcomnav.module.css'
 import  Logo from '../../assets/log.png'
 import Menu from '../../assets/menu.png'
 import Avatar from '../../assets/avatar.png'
-import MenuComp from '../../components/menu'
+// import MenuComp from '../../components/menu'
 import CreateModal from '../create-modal';
 import CreateBrandForm from '../../components/create-brand-form'
 import AddNewCampaign from './add-new-campaign';
@@ -40,9 +40,9 @@ const WelcomeNavbar = () => {
             
             <a><img src={Logo} /></a>
 
-            {/* <img src={Menu} /> */}
+            <img src={Menu} />
 
-            <MenuComp />
+            {/* <MenuComp /> */}
 
             <a href='www.fk'>Account Overview</a>
 
