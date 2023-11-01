@@ -44,7 +44,7 @@ const CreateBrandForm = () => {
           </div>
         </form>
         <div>
-        <a href="#">INVITE MEMBER</a><br /><br />
+        <a href="www.gk">INVITE MEMBER</a><br /><br />
 
 
         </div>

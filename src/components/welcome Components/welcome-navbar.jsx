@@ -40,11 +40,11 @@ const WelcomeNavbar = () => {
             
             <a><img src={Logo} /></a>
 
-            <img src={Menu} />
+            {/* <img src={Menu} /> */}
 
-            {/* <MenuComp /> */}
+            <MenuComp />
 
-            <a href='#'>Account Overview</a>
+            <a href='www.fk'>Account Overview</a>
 
         </div>
         <div className={Style.rightDiv}>

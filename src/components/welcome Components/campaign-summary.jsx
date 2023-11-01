@@ -28,7 +28,7 @@ const CampaignSummary = () => {
           </p>
         </div>
         <div className={Style.campTextLink}>
-          <a href="">+ New campgaign</a>
+          <a href="www.jh">+ New campgaign</a>
         </div>
       </div>
 

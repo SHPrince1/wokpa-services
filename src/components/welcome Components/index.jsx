@@ -1,7 +1,7 @@
 import React from 'react'
 import CampaignSummary from './campaign-summary'
 import WelcomeNavbar from './welcome-navbar'
-import BillingSummary from './billing-summary'
+// import BillingSummary from './billing-summary'
 import Style from '../../style/welcomindex.module.css'
 import CampBill from './camp-bil'
 
